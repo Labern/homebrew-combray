@@ -1,11 +1,11 @@
 cask "combray" do
-  version "0.6"
-  sha256 "90030d8d5c810657b2b27a440476f66ea0cf9ef0e44d2bb5886a4f1a78ec71a2"
+  version "0.7"
+  sha256 "d4307cb7ebd118d09b4ff7a64b88e7d247e751c13294538f5391b79bea701cb3"
   url "https://github.com/Labern/Combray/releases/download/v#{version}/Combray.pkg"
   name "Combray"
   desc "Personal archive that transcribes handwritten letters with Claude"
   homepage "https://github.com/Labern/Combray"
   pkg "Combray.pkg"
   uninstall pkgutil: "com.labern.combray"
-  zap trash: "~/Documents/Combray"
+  zap trash: "~/Library/Application Support/Combray"
 end
