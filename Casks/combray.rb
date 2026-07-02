@@ -1,6 +1,6 @@
 cask "combray" do
-  version "0.14.4"
-  sha256 "495d74c66c89aaedfa5be87700c697c6e54aee8d7b4fd2a641fc182d97a769af"
+  version "0.15.0"
+  sha256 "afc7bed3e78d84df85ce6dc1d97923c92add98ec89edc255a85b83ff33c5d84a"
   url "https://github.com/Labern/Combray/releases/download/v#{version}/Combray.pkg"
   name "Combray"
   desc "Personal archive that transcribes handwritten letters with Claude"
